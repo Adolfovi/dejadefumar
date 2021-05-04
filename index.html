@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-	
+
 	<title>Deja de fumar</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,22 +10,20 @@
 	<link rel="stylesheet" type="text/css" href="primary-styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<script>function myFunction() {alert("Lo has conseguido! Ahora mismo no estas fumando!");}</script>
-
+	<script>function myFunction() { alert("Lo has conseguido! Ahora mismo no estas fumando!"); }</script>
+	<script src="js/first.js"></script>
 
 </head>
+
 <body style="background-color: #b1b1b1">
 
 	<div style="background-color: #b1b1b1" class="jumbotron text-center">
-		<img src="img/cigarro.png" alt="cigarro" style="width: 149px; border-radius: 29px" class="">
+		<img onclick="dmmode()" id="cigarrette" src="img/cigarro.png" alt="cigarro" style="width: 149px; border-radius: 29px" class="">
 		<h1><b>Terapia para dejar de fumar</b></h1>
 		<p>Aprieta el siguiente botón para dejar de fumar</p>
-				<button style="width: 120px; height: 41px; background-color: #d6d6d6" onclick="myFunction()"></button>
+		<button style="width: 120px; height: 41px; background-color: #d6d6d6" onclick="myFunction()"></button>
 	</div>
 
-
-
-
-
 </body>
+
 </html>
